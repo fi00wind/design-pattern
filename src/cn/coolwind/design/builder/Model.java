@@ -7,15 +7,6 @@ public class Model {
 
     private String C;
 
-    @Override
-    public String toString() {
-        return "Model{" +
-                "A='" + A + '\'' +
-                ", B='" + B + '\'' +
-                ", C='" + C + '\'' +
-                '}';
-    }
-
     public String getA() {
         return A;
     }
@@ -38,5 +29,14 @@ public class Model {
 
     public void setC(String c) {
         C = c;
+    }
+
+    @Override
+    public String toString() {
+        return "Model{" +
+                "A='" + A + '\'' +
+                ", B='" + B + '\'' +
+                ", C='" + C + '\'' +
+                '}';
     }
 }

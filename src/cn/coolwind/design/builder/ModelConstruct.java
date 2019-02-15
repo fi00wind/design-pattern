@@ -8,6 +8,7 @@ public class ModelConstruct {
         return builder.buildModel();
     }
 
+    //全部构建
     public Model buildABC(ModelBuilder builder) {
         builder.buildA();
         builder.buildB();

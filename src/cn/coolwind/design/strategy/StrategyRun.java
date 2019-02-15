@@ -6,7 +6,7 @@ public class StrategyRun {
         Strategy sub = new Sub();
         int x = 9;
         int y = 3;
-        Calculartor calc = new Calculartor();
+        Calculator calc = new Calculator();
         int addRes = calc.doCalc(x,y,add);
         System.out.println(x + "+" + y + "=" + addRes);
         int subRes = calc.doCalc(x,y,sub);

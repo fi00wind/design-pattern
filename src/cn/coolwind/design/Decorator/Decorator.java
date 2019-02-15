@@ -9,7 +9,7 @@ public class Decorator implements Target {
 
     @Override
     public void method() {
-        System.out.println("Decorator!!!!");
+        System.out.println("hello world!!!!");
         source.method();
     }
 }

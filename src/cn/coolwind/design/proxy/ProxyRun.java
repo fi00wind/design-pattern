@@ -6,9 +6,9 @@ public class ProxyRun {
 
     public static void main(String[] args) {
         //静态代理
-//        Book book = new ProxyBook();
-//        book.read();
-//        book.write();
+        Book book = new ProxyBook();
+        book.read();
+        book.write();
         //动态代理
         Book realBook = new RealBook();
         DynamicProxy proxy = new DynamicProxy(realBook);
